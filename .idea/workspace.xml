@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programming_Fundamentals.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/atm/AtmProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/atm/SwitchATM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/calculator/AddTwoNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/calculator/DifferenceBetweenTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/calculator/SubtractTwoNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/HighestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/WordCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/GuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/NumberGuessingGame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/RockPaperScissorInfinite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/math/PrintEvenNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/methods/JavaMethodExercisesOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/student/GradeCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/student/SwitchGrades.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ArrayListSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ArrayListSample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/HashMapSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/HashMapSample.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FMzJb6zmOV6UzTeyPXTbWKkcgp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.RockPaperScissorInfinite">
+    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.GuessingGame" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NumberGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.NumberGuessingGame" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.math.PrintEvenNumber" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.math.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RockPaperScissorInfinite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.RockPaperScissorInfinite" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.RockPaperScissors" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubtractTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.calculator.SubtractTwoNumbers" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RockPaperScissorInfinite" />
+        <item itemvalue="Application.RockPaperScissors" />
+        <item itemvalue="Application.NumberGuessingGame" />
+        <item itemvalue="Application.PrintEvenNumber" />
+        <item itemvalue="Application.NumberGuessingGame" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="" />
+      <created>1664316683488</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664316683488</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ShoppingCart.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
