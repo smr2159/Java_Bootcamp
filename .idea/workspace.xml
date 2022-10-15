@@ -4,32 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Programming_Fundamentals.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/atm/AtmProgram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/atm/SwitchATM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/calculator/AddTwoNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/calculator/DifferenceBetweenTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/calculator/SubtractTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/HighestScore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ShoppingCart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/WordCount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/GuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/NumberGuessingGame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/RockPaperScissorInfinite.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/game/RockPaperScissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/math/PrintEvenNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/methods/JavaMethodExercisesOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/student/GradeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/student/SwitchGrades.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ArrayListSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/ArrayListSample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/HashMapSample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/HashMapSample.java" afterDir="false" />
+    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="These are my Java bootcamp packages and files as of 10/13/2022.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/loan/SimpleCarLoanPaymentCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/AnimalShelter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +46,20 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RockPaperScissorInfinite">
+  <component name="RunManager" selected="Application.EnhancedShoppingCart">
+    <configuration name="EnhancedShoppingCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.data_structures.EnhancedShoppingCart" />
+      <module name="Programming_Fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ramsay.data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ramsay.game.GuessingGame" />
       <module name="Programming_Fundamentals" />
@@ -78,25 +73,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberGuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.NumberGuessingGame" />
+    <configuration name="InsuranceClaimsDashboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.insurance.InsuranceClaimsDashboard" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.game.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintEvenNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.math.PrintEvenNumber" />
-      <module name="Programming_Fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ramsay.math.*" />
+          <option name="PATTERN" value="com.ramsay.insurance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.RockPaperScissors" />
+    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.oop.Shape" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="PATTERN" value="com.ramsay.oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubtractTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.calculator.SubtractTwoNumbers" />
+    <configuration name="SimpleCarLoanPaymentCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.loan.SimpleCarLoanPaymentCalculator" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.calculator.*" />
+          <option name="PATTERN" value="com.ramsay.loan.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +127,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnhancedShoppingCart" />
+        <item itemvalue="Application.InsuranceClaimsDashboard" />
+        <item itemvalue="Application.Shape" />
+        <item itemvalue="Application.SimpleCarLoanPaymentCalculator" />
         <item itemvalue="Application.RockPaperScissorInfinite" />
-        <item itemvalue="Application.RockPaperScissors" />
-        <item itemvalue="Application.NumberGuessingGame" />
-        <item itemvalue="Application.PrintEvenNumber" />
-        <item itemvalue="Application.NumberGuessingGame" />
       </list>
     </recent_temporary>
   </component>
@@ -162,6 +144,14 @@
       <option name="presentableId" value="Default" />
       <updated>1664316683488</updated>
     </task>
+    <task id="LOCAL-00001" summary="These are my Java bootcamp packages and files as of 10/13/2022.">
+      <created>1665661185870</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665661185870</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -174,6 +164,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="These are my Java bootcamp packages and files as of 10/13/2022." />
+    <option name="LAST_COMMIT_MESSAGE" value="These are my Java bootcamp packages and files as of 10/13/2022." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
