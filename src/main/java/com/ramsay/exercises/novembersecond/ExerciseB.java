@@ -1,4 +1,4 @@
-package com.ramsay.daily_exercises.november2;
+package com.ramsay.exercises.novembersecond;
 
 import java.util.Arrays;
 

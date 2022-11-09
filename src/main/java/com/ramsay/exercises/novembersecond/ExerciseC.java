@@ -1,9 +1,9 @@
-package com.ramsay.daily_exercises.november2;
+package com.ramsay.exercises.novembersecond;
 
 public class ExerciseC {
     public static void main(String[] args) {
         // create a random integer variable
-        int randomNumOne = (int) ((Math.random() * (100-1)) + 1);
+        int randomNumOne = (int) ((Math.random() * (10-1)) + 1);
 
         // create a second random integer variable
         int randomNumTwo = (int) ((Math.random() * (100-1)) + 1);
