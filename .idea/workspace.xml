@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="These are my Java bootcamp packages and files as of 10/13/2022.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/loan/SimpleCarLoanPaymentCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/AnimalShelter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novembereight/PostFour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novembereight/TeaParty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberfifth/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberfifth/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberseventh/LoveSix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberseventh/RedTicket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,33 +40,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Ramsay.000/Dev/Java_Bootcamp",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
-  <component name="RunManager" selected="Application.EnhancedShoppingCart">
+}]]></component>
+  <component name="RunManager" selected="Application.TeaParty">
     <configuration name="EnhancedShoppingCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ramsay.data_structures.EnhancedShoppingCart" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ramsay.data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.GuessingGame" />
-      <module name="Programming_Fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ramsay.game.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPaperScissorInfinite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.RockPaperScissorInfinite" />
+    <configuration name="LoveSix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberseventh.LoveSix" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novemberseventh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.oop.Shape" />
+    <configuration name="RedTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberseventh.RedTicket" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.oop.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novemberseventh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCarLoanPaymentCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.loan.SimpleCarLoanPaymentCalculator" />
+    <configuration name="TeaParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novembereight.TeaParty" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.loan.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novembereight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TeaParty" />
+        <item itemvalue="Application.RedTicket" />
+        <item itemvalue="Application.LoveSix" />
         <item itemvalue="Application.EnhancedShoppingCart" />
         <item itemvalue="Application.InsuranceClaimsDashboard" />
-        <item itemvalue="Application.Shape" />
-        <item itemvalue="Application.SimpleCarLoanPaymentCalculator" />
-        <item itemvalue="Application.RockPaperScissorInfinite" />
       </list>
     </recent_temporary>
   </component>
