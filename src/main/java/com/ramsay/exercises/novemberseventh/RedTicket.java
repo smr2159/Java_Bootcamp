@@ -1,5 +1,5 @@
 package com.ramsay.exercises.novemberseventh;
-
+//Coding Bat Exercise: https://codingbat.com/prob/p170833
 public class RedTicket {
     public static void main (String [] args) {
         RedTicket evalTicket = new RedTicket();
