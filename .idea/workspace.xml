@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="These are my Java bootcamp packages and files as of 10/13/2022.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/loan/SimpleCarLoanPaymentCalculator.java" afterDir="false" />
+    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="11/3/22 - Submitting daily exercises and the latest iteration of final project. For the final project I have to complete and then refactor code. I want to reduce the side of the insurance program by more than 50% by refactoring with methods.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberthird/StringComparison.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/AnimalShelter.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/Dog.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/oop/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/EnhancedShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/data_structures/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,16 +43,17 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Sharon/dev/code/training/Programming_Fundamentals&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.EnhancedShoppingCart">
-    <configuration name="EnhancedShoppingCart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.data_structures.EnhancedShoppingCart" />
+  <component name="RunManager" selected="Application.AccessModifierTest">
+    <configuration name="AccessModifierTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.accessmodifier.AccessModifierTest" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.data_structures.*" />
+          <option name="PATTERN" value="com.ramsay.accessmodifier.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GuessingGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.GuessingGame" />
+    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.email.EmailValidator" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="PATTERN" value="com.ramsay.email.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RockPaperScissorInfinite" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.game.RockPaperScissorInfinite" />
+    <configuration name="LongestWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberthird.LongestWord" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.game.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novemberthird.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,25 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.oop.Shape" />
+    <configuration name="StringComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberthird.StringComparison" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleCarLoanPaymentCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.loan.SimpleCarLoanPaymentCalculator" />
-      <module name="Programming_Fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ramsay.loan.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novemberthird.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EnhancedShoppingCart" />
+        <item itemvalue="Application.AccessModifierTest" />
+        <item itemvalue="Application.LongestWord" />
+        <item itemvalue="Application.StringComparison" />
+        <item itemvalue="Application.EmailValidator" />
         <item itemvalue="Application.InsuranceClaimsDashboard" />
-        <item itemvalue="Application.Shape" />
-        <item itemvalue="Application.SimpleCarLoanPaymentCalculator" />
-        <item itemvalue="Application.RockPaperScissorInfinite" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +139,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665661185870</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="10/15/22 - Submitting the completed enhanced shopping cart.">
+      <created>1665846717943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665846717943</updated>
+    </task>
+    <task id="LOCAL-00003" summary="11/3/22 - Submitting daily exercises and the latest iteration of final project. For the final project I have to complete and then refactor code. I want to reduce the side of the insurance program by more than 50% by refactoring with methods.">
+      <created>1667477734067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667477734067</updated>
+    </task>
+    <task id="LOCAL-00004" summary="11/3/22 - Submitting daily exercises and the latest iteration of final project. For the final project I have to complete and then refactor code. I want to reduce the side of the insurance program by more than 50% by refactoring with methods.">
+      <created>1667962600966</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667962600966</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +176,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="These are my Java bootcamp packages and files as of 10/13/2022." />
-    <option name="LAST_COMMIT_MESSAGE" value="These are my Java bootcamp packages and files as of 10/13/2022." />
+    <MESSAGE value="10/15/22 - Submitting the completed enhanced shopping cart." />
+    <MESSAGE value="11/3/22 - Submitting daily exercises and the latest iteration of final project. For the final project I have to complete and then refactor code. I want to reduce the side of the insurance program by more than 50% by refactoring with methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="11/3/22 - Submitting daily exercises and the latest iteration of final project. For the final project I have to complete and then refactor code. I want to reduce the side of the insurance program by more than 50% by refactoring with methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

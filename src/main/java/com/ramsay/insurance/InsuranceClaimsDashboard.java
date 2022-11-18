@@ -8,11 +8,8 @@ October 11, 2022
  */
 
 // Import Java utilities
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 import java.io.*;
-import java.util.Scanner;
-import java.util.HashMap;
 
 public class InsuranceClaimsDashboard {
     public static void main(String[] args) {
@@ -24,7 +21,13 @@ public class InsuranceClaimsDashboard {
         HashMap<String, List <String>> insuranceClaimsStatus = new HashMap<>();
         HashMap<String, List <String>> insuranceClaimsGender = new HashMap<>();
         HashMap<String, List <String>> insuranceClaimsMonth = new HashMap<>();
+        HashMap<String, List <Double>> claimsTypeTotal = new HashMap<>();
 
+        // TreeSets to sort the data alphabetically.
+        TreeSet<String> alphaClaimTypes = new TreeSet<String>();
+        TreeSet<String> alphaClaimStatus = new TreeSet<String>();
+        TreeSet<String> alphaClaimGender = new TreeSet<String>();
+        TreeSet<String> alphaClaimMonth = new TreeSet<String>();
 
         for (String line : myClaimsData) {
             String[] claimsRecord = line.split(",");
@@ -37,13 +40,23 @@ public class InsuranceClaimsDashboard {
                 Double claimAmount = Double.valueOf(claimsRecord[6]);
                 String claimStatus = claimsRecord[7];
 
+                // Entering data into HashSets
+                alphaClaimTypes.add(claimType);
+                alphaClaimStatus.add(claimStatus);
+                alphaClaimGender.add(gender);
+                alphaClaimMonth.add(claimMonth);
+
                 // Grouping claims by type
                 List <String> claimTypes = insuranceClaimsType.get(claimType);
+                //List <Double> typesTotal = insuranceClaimsType.get(claimAmount);
                 if (claimTypes == null) {
                     claimTypes = new ArrayList<>();
+                   // typesTotal = new ArrayList<>();
                 }
                 claimTypes.add(line);
+                //typesTotal.add(claimAmount);
                 insuranceClaimsType.put(claimType, claimTypes);
+               // claimsTypeTotal.put(claimType, typesTotal);
 
                 // Grouping claims by status
                 List <String> claimStates = insuranceClaimsStatus.get(claimStatus);
@@ -70,6 +83,26 @@ public class InsuranceClaimsDashboard {
                 insuranceClaimsGender.put(gender, genders);
                 }
 
+            System.out.println("This is an apha listing of claims types:");
+           for (String itemA : alphaClaimTypes)
+            System.out.println(itemA);
+            System.out.println(" ");
+
+            System.out.println("This is an apha listing of claims status:");
+            for (String itemB : alphaClaimStatus)
+            System.out.println(itemB);
+            System.out.println(" ");
+
+            System.out.println("This is an apha listing of genders:");
+            for (String itemC : alphaClaimGender)
+            System.out.println(itemC);
+            System.out.println(" ");
+
+            System.out.println("This is an apha listing of claims months:");
+            for (String itemD : alphaClaimMonth)
+            System.out.println(itemD);
+            System.out.println(" ");
+
             // Printing all claims status
             System.out.println("Claim Status:");
             insuranceClaimsStatus.forEach((k,v) -> {
@@ -92,6 +125,11 @@ public class InsuranceClaimsDashboard {
             System.out.println("Genders:");
             insuranceClaimsGender.forEach((k,v) -> {
             System.out.println(k + " = " + v.size());});
+
+            System.out.println(" ");
+            System.out.println("Types Totals:");
+            claimsTypeTotal.forEach((k,v) -> {
+            System.out.println(k + " = " + v);});
            }
 
             private List<String> claimsData () {
