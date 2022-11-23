@@ -56,7 +56,7 @@ public class InsuranceClaimsDashboard {
                 claimTypes.add(line);
                 //typesTotal.add(claimAmount);
                 insuranceClaimsType.put(claimType, claimTypes);
-               // claimsTypeTotal.put(claimType, typesTotal);
+               //8It's  claimsTypeTotal.put(claimType, typesTotal);
 
                 // Grouping claims by status
                 List <String> claimStates = insuranceClaimsStatus.get(claimStatus);

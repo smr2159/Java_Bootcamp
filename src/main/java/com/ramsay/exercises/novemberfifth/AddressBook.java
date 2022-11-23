@@ -14,7 +14,8 @@ public class AddressBook {
         return addressBook;
     }
 
-    public String findContact (String lastName, ArrayList addressBook) {
+    /*public String findContact (String lastName, ArrayList addressBook) {
+
         for (String line : addressBook) {
             String[] contact = line.split(",");
             String lastName = addressBook[1];
@@ -23,5 +24,5 @@ public class AddressBook {
             }
 
     }
-        return line;
+        return line;*/
 }
