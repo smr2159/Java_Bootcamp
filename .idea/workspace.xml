@@ -4,10 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="">
+    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="11/3/22 - Submitting daily exercises and the latest iteration of final project. For the final project I have to complete and then refactor code. I want to reduce the side of the insurance program by more than 50% by refactoring with methods.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/classroom/Classroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/classroom/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/classroom/Coursework.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/stream/ExerciseOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/stream/ExerciseThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/stream/ExerciseTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberfifth/AddressBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberfifth/AddressBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberfifth/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/exercises/novemberfifth/Contact.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +27,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -43,13 +53,13 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Bully">
-    <configuration name="Bully" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberninth.Bully" />
+  <component name="RunManager" selected="Application.ExerciseOne">
+    <configuration name="ExerciseOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.stream.ExerciseOne" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.exercises.novemberninth.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +67,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HasSeven" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberninth.HasSeven" />
+    <configuration name="ExerciseThree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.stream.ExerciseThree" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.exercises.novemberninth.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostFour" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novembereight.PostFour" />
+    <configuration name="ExerciseTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.stream.ExerciseTwo" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.exercises.novembereight.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.stream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RedTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novemberseventh.RedTicket" />
+    <configuration name="Minutes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novembereleventh.Minutes" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.exercises.novemberseventh.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novembereleventh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TeaParty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novembereight.TeaParty" />
+    <configuration name="Stocks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ramsay.exercises.novembertenth.Stocks" />
       <module name="Programming_Fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ramsay.exercises.novembereight.*" />
+          <option name="PATTERN" value="com.ramsay.exercises.novembertenth.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bully" />
-        <item itemvalue="Application.PostFour" />
-        <item itemvalue="Application.HasSeven" />
-        <item itemvalue="Application.TeaParty" />
-        <item itemvalue="Application.RedTicket" />
+        <item itemvalue="Application.ExerciseOne" />
+        <item itemvalue="Application.ExerciseThree" />
+        <item itemvalue="Application.ExerciseTwo" />
+        <item itemvalue="Application.Stocks" />
+        <item itemvalue="Application.Minutes" />
       </list>
     </recent_temporary>
   </component>
