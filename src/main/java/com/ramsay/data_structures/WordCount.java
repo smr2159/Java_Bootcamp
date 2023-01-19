@@ -49,7 +49,7 @@ public class WordCount {
         }
 
         // Create and manipulate a TreeSet.
-        TreeSet<String> alphaWordList = new TreeSet<>();
+        TreeSet<String> alphaWordList = new TreeSet<>(wordList);
         System.out.println("This is an alphabetical list of the words in the word list (upper- then lower-case):");
         System.out.println(alphaWordList);
         System.out.println("The first word in the list is: " + alphaWordList.first());
