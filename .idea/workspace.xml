@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="Latest files as of December 22, 2022. Includes the Stream exercises and the start of the Classroom API.">
+    <list default="true" id="2131c4f5-3c74-48d8-aa75-1f581d411451" name="Changes" comment="Completed Insurance Dashboard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ramsay/insurance/InsuranceClaimsDashboard.java" afterDir="false" />
     </list>
@@ -116,10 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.InsuranceClaimsDashboard" />
-        <item itemvalue="Application.WordCount" />
         <item itemvalue="Application.ExerciseOne" />
         <item itemvalue="Application.ExerciseThree" />
         <item itemvalue="Application.ExerciseTwo" />
+        <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
   </component>

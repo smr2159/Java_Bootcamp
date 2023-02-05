@@ -3,18 +3,20 @@ package com.ramsay.insurance;
 /*
 This is a program that imports and analyzes a csv file containing insurance claims data.
 Version 1.0
-Created by Sharon M. Ramsay
-October 11, 2022
-Last revised: January 7, 2023
+Created by Sharon M. Ramsay October 11th 2022
+Last revised: January 18, 2023
  */
 
 // Import Java utilities
+
+import java.text.DecimalFormat;
 import java.util.*;
 import java.io.*;
 
 import static java.lang.Double.valueOf;
 
 public class InsuranceClaimsDashboard {
+    private static final DecimalFormat df = new DecimalFormat("0.00");
     public static void main(String[] args) {
         InsuranceClaimsDashboard dashboard = new InsuranceClaimsDashboard();
         List<String> myClaimsData = dashboard.claimsData();
@@ -25,12 +27,6 @@ public class InsuranceClaimsDashboard {
         HashMap<String, List<String>> insuranceClaimsGender = new HashMap<>();
         HashMap<String, List<String>> insuranceClaimsMonth = new HashMap<>();
 
-        // TreeSets to sort the data alphabetically.
-        TreeSet<String> alphaClaimTypes = new TreeSet<String>();
-        TreeSet<String> alphaClaimStatus = new TreeSet<String>();
-        TreeSet<String> alphaClaimGender = new TreeSet<String>();
-        TreeSet<String> alphaClaimMonth = new TreeSet<String>();
-
         for (String line : myClaimsData) {
             String[] claimsRecord = line.split(",");
             String claimMonth = claimsRecord[1];
@@ -39,102 +35,102 @@ public class InsuranceClaimsDashboard {
             Double claimAmount = valueOf(claimsRecord[6]);
             String claimStatus = claimsRecord[7];
 
-            // Entering data into HashSets
-            alphaClaimTypes.add(claimType);
-            alphaClaimStatus.add(claimStatus);
-            alphaClaimGender.add(gender);
-            alphaClaimMonth.add(claimMonth);
-
             // Grouping claims by type
-            List<String> claimTypes = insuranceClaimsType.get(claimType);
-            if (claimTypes == null) {
-                claimTypes = new ArrayList<>();
-            }
-            claimTypes.add(line);
-            insuranceClaimsType.put(claimType, claimTypes);
-
+            dashboard.updateClaims(insuranceClaimsType, line, claimType);
 
             // Grouping claims by status
-            List<String> claimStates = insuranceClaimsStatus.get(claimStatus);
-            if (claimStates == null) {
-                claimStates = new ArrayList<>();
-            }
-            claimStates.add(line);
-            insuranceClaimsStatus.put(claimStatus, claimStates);
+            dashboard.updateClaims(insuranceClaimsStatus, line, claimStatus);
 
             // Grouping claims by month
-            List<String> claimMonths = insuranceClaimsMonth.get(claimMonth);
-            if (claimMonths == null) {
-                claimMonths = new ArrayList<>();
-            }
-            claimMonths.add(line);
-            insuranceClaimsMonth.put(claimMonth, claimMonths);
+            dashboard.updateClaims(insuranceClaimsMonth, line, claimMonth);
 
             // Grouping claims by gender
-            List<String> genders = insuranceClaimsGender.get(gender);
-            if (genders == null) {
-                genders = new ArrayList<>();
-            }
-            genders.add(line);
-            insuranceClaimsGender.put(gender, genders);
+            dashboard.updateClaims(insuranceClaimsGender, line, gender);
         }
 
-
+        System.out.println(" ");
         // Calling print method to print alphabetical lists
         System.out.println("This is an apha listing of claims types:");
-        dashboard.printList(alphaClaimTypes);
-        System.out.println("This is an apha listing of claims status:");
-        dashboard.printList(alphaClaimStatus);
-        System.out.println("This is an apha listing of genders:");
-        dashboard.printList(alphaClaimGender);
-        System.out.println("This is an apha listing of claims months:");
-        dashboard.printList(alphaClaimMonth);
+        dashboard.printList(insuranceClaimsType);
         System.out.println(" ");
-
+        System.out.println("This is an apha listing of claims status:");
+        dashboard.printList(insuranceClaimsStatus);
+        System.out.println(" ");
+        System.out.println("This is an apha listing of genders:");
+        dashboard.printList(insuranceClaimsGender);
+        System.out.println(" ");
+        System.out.println("This is an apha listing of claims months:");
+        dashboard.printList(insuranceClaimsMonth);
+        System.out.println(" ");
+        System.out.println(" ");
         // Calling print method to print totals
         System.out.println("Total Claims By Status:");
         dashboard.printTotals(insuranceClaimsStatus);
+        System.out.println(" ");
         System.out.println("Total Claims By Type:");
         dashboard.printTotals(insuranceClaimsType);
+        System.out.println(" ");
         System.out.println("Total Claims By Month:");
         dashboard.printTotals(insuranceClaimsMonth);
+        System.out.println(" ");
         System.out.println("Total Claims By Gender:");
         dashboard.printTotals(insuranceClaimsGender);
-        }
-
-
-        // Method to print alphabetical lists
-        private int printList (TreeSet<String> myTreeSet) {
-            for (String item : myTreeSet)
-                System.out.println(item);
-            return 0;
-        }
-        // Print method for printing totals
-        private int printTotals (HashMap<String, List<String>> myHashMap) {
-            myHashMap.forEach((k, v) -> {
-                System.out.println(k + " = " + v.size());
-            });
-            return 0;
-        }
-
-            private List<String> claimsData () {
-            String fileName = "C:/claims.csv";
-            // variable to store all the claims from the file
-            ArrayList<String> claimsListing = new ArrayList<>();
-            int rowNumber = 1;
-            try (Scanner scanner = new Scanner(new File(fileName))) {
-                while (scanner.hasNext()) {
-                    String claim = scanner.nextLine();
-                    if (rowNumber != 1) {
-                        claimsListing.add(claim);
-                    }
-                    rowNumber ++;
-                }
-            }
-            catch (IOException e) {
-            }
-            return claimsListing;
-        }
     }
+
+    private void updateClaims(HashMap<String, List<String>> insuranceClaims, String line, String claimCategory) {
+        List<String> claimCategories = insuranceClaims.get(claimCategory);
+        if (claimCategories == null) {
+            claimCategories = new ArrayList<>();
+        }
+        claimCategories.add(line);
+        insuranceClaims.put(claimCategory, claimCategories);
+    }
+
+
+    // Method to print alphabetical lists
+    private void printList(HashMap<String, List<String>> myHashMap) {
+        TreeSet<String> myTreeSet = new TreeSet<>(myHashMap.keySet());
+        for (String item : myTreeSet)
+            System.out.println(item);
+
+    }
+
+    // Print method for printing totals
+    private void printTotals(HashMap<String, List<String>> myHashMap) {
+        myHashMap.forEach((k, v) -> {
+            double claimSum = 0;
+            double largestAmount = 0;
+            for (String line : v) {
+                String[] claimsList = line.split(",");
+                Double claimAmount = valueOf(claimsList[6]);
+                claimSum += claimAmount;
+
+                if (claimAmount > largestAmount) {
+                    largestAmount = claimAmount;
+                }
+                }
+            System.out.println(k + " - " + "Number of claims:" + v.size() + "   Total claims amount:$" +  df.format(claimSum) +
+                    "  The largest claim amount is:$ " + df.format(largestAmount));
+        });
+    }
+
+    private List<String> claimsData() {
+        String fileName = "C:/claims.csv";
+        // variable to store all the claims from the file
+        ArrayList<String> claimsListing = new ArrayList<>();
+        int rowNumber = 1;
+        try (Scanner scanner = new Scanner(new File(fileName))) {
+            while (scanner.hasNext()) {
+                String claim = scanner.nextLine();
+                if (rowNumber != 1) {
+                    claimsListing.add(claim);
+                }
+                rowNumber++;
+            }
+        } catch (IOException e) {
+        }
+        return claimsListing;
+    }
+}
 
 
